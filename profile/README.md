@@ -59,9 +59,22 @@ in any cloud, with any model.
 | Product | What it is | Status |
 |---|---|---|
 | **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Governance layer for AI agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision (5W) | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.0-alpha-E8821A?style=flat-square) |
-| **Vigyan Virtual Cloud** | Sovereign AI platform on bare-metal GPU: local models, governed agents, one control plane | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
+| **Vigyan Virtual Cloud** | Sovereign AI platform on bare-metal GPU: local models, governed agents, one control plane | ![coming soon](https://img.shields.io/badge/coming_soon-6B6357?style=flat-square) |
 | **VigyanVaani** | Voice bots and transcription for Indian and global languages | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
 | **Vigyan Studio** | Creator and brand platform: video, voice, social scheduling and listening intelligence | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
+
+</div>
+
+### 🧰 Open-source tools
+
+<div align="center">
+
+| Repository | What it does |
+|---|---|
+| **[vigyan-transcribe](https://github.com/vigyanbytes/vigyan-transcribe)** | Offline speech-to-text for 22 Indian languages on your own machine. Created by Aryan Nema, built on AI4Bharat IndicConformer |
+| **[vigyan-llm-cli](https://github.com/vigyanbytes/vigyan-llm-cli)** | Governed installer and wrapper for Claude Code, Codex, Gemini CLI, OpenCode and local models |
+| **[thermalright-lcd-control-aio](https://github.com/vigyanbytes/thermalright-lcd-control-aio)** | Linux service and web dashboard for Thermalright AIO and CPU-cooler LCD panels: CPU/GPU temperature, power and load (fork of rejeb/thermalright-lcd-control) |
+| **[homecloud-client](https://github.com/vigyanbytes/homecloud-client)** | AI-guided migration of personal files to your own home server (Immich + Nextcloud). Offline, no cloud |
 
 </div>
 
