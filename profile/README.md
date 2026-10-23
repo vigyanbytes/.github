@@ -1,79 +1,138 @@
-<p align="center">
-  <a href="https://vigyanbytes.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://www.vigyanbytes.com/brand/logo-primary-ivory.svg">
-      <img src="https://www.vigyanbytes.com/brand/logo-primary-deep.svg" alt="VigyanBytes" width="320">
-    </picture>
-  </a>
-</p>
+<div align="center">
 
-<h3 align="center">Deep tech. Built to be trusted.</h3>
-<p align="center"><em>Engineering what's next.</em></p>
+<a href="https://vigyanbytes.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://www.vigyanbytes.com/brand/logo-primary-ivory.svg">
+    <img src="https://www.vigyanbytes.com/brand/logo-primary-deep.svg" height="80" alt="VigyanBytes">
+  </picture>
+</a>
 
----
+# VigyanBytes Solutions Private Limited
 
-**VigyanBytes Solutions Private Limited** is a deep-tech company from Bengaluru, building for the world.
-We make AI that companies can actually let near their data: it runs on hardware they own, works with any model,
-and keeps a record of everything it does.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=E8821A&center=true&vCenter=true&multiline=true&width=760&height=80&lines=Deep+tech.+Built+to+be+trusted.;Engineering+what%27s+next.)](https://vigyanbytes.com)
+
+<a href="https://vigyanbytes.com"><img src="https://img.shields.io/badge/Website-vigyanbytes.com-C2670D?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="mailto:info@vigyanbytes.com"><img src="https://img.shields.io/badge/Email-info%40vigyanbytes.com-1C1814?style=for-the-badge&logo=maildotru&logoColor=white" /></a>
+<a href="https://linkedin.com/company/vigyanbytes"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 **Deep science. Real systems. Trust built in.**
 
-## The problem we work on
+</div>
 
-Every team now wants AI agents and chatbots in their daily work. Each of those tools can read customer data,
-run commands and change production systems. Usually nobody can answer three questions about them:
+---
 
-1. **What did the AI see?** Personal data such as ID numbers, cards and phone numbers often reaches a third-party model.
-2. **What was it allowed to do?** Agents can delete, deploy and read credential files, often with no hard stop.
-3. **Who decided, and why?** Six months later there is no evidence an auditor or customer would accept.
+### 🏢 Who we are
 
-We build the layer that answers those questions, then the AI products that run on top of it.
+A deep-tech company from **Bengaluru, India, building for the world**. We design, build and run AI, data, cloud
+and edge systems for companies that need them to be **governed, private and dependable**: on their own hardware,
+in any cloud, with any model.
 
-## Niyantrak: governance for AI agents and bots
+- 🧠 **Agentic AI, done safely**: AI agents that do real work, with guardrails and evidence built in from day one
+- 🛡️ **Governance first**: we know what the AI saw, what it was allowed to do, and who approved it
+- 🖥️ **Sovereign by default**: we run on GPUs and servers the customer owns, and cloud is a choice, not a lock-in
+- 🏗️ **25 years of architecture**: telecom, big data, cloud, IoT and now agentic AI, across 9 industries
+- 🌍 **Made in India, for the world**: each region's data laws are handled as rules, never as separate products
 
-> नियंत्रक, *controller*. **Open source (Apache-2.0) · alpha v0.1.0**
+---
 
-Niyantrak sits between your people, your agents and any AI model, on machines you own. It needs no cloud account.
+## 🧭 What we do
 
-| | What it does |
+<div align="center">
+
+| Service | What you get |
 |---|---|
-| 🔍 **Finds personal data first** | Detects identifiers for India, the EU, the UK, the US and global formats before a model sees them, and swaps in placeholders. It checks real checksums (Verhoeff, Luhn, mod-97, GSTIN), so order numbers and invoice IDs are left alone. |
-| 🛑 **Stops dangerous actions** | Hard gates for Claude Code, Codex, Gemini CLI and OpenCode block destructive commands, credential files and unapproved production changes. |
-| 🧾 **Records every decision** | 5W activity records (who · whom · what · where · why) in a tamper-evident store, plus an append-only decision log. Records hold counts, never the sensitive values. |
-| 🪪 **Uses the identity you already have** | People are identified from the operating system's login (local users, LDAP/AD via SSSD, Entra/authd, Kanidm), never typed in by hand. |
-| 🖥️ **Joins machines securely** | Single-use join tokens and signed node cards, with each join approved by an operator. As-built docs and a network map are generated from what actually exists. |
-| ✅ **Shows its own proof** | Every commit publishes its tests, coverage and a leak scan alongside the panel screenshots. |
+| **🤖 Agentic AI upgrades** | Governed AI agents added to the software you already run, without a rewrite |
+| **🛡️ AI governance & compliance** | Personal-data protection, action guardrails and audit trails for every bot and agent |
+| **🖥️ Private / sovereign AI platforms** | On-prem GPU, open-source models, RAG and multi-LLM routing; your data stays home |
+| **🎙️ Voice & conversational AI** | Voice bots, transcription, WhatsApp and video assistants, including Indian languages |
+| **📊 Data platforms & modernisation** | Legacy systems moved to modern lakehouse and streaming platforms, cloud or on-prem |
+| **☁️ Cloud, edge & IoT** | Infrastructure as code, edge AI and real-time telemetry across AWS, Azure, GCP and bare metal |
 
-```bash
-git clone https://github.com/vigyanbytes/niyantrak && cd niyantrak
-python3 -m venv .venv && .venv/bin/pip install .
-.venv/bin/niyantrak scan "My PAN is ABCPE1234F, card 4111 1111 1111 1111"
-.venv/bin/niyantrak panel        # open http://127.0.0.1:8770
-```
+</div>
 
-👉 **[Get started with Niyantrak](https://github.com/vigyanbytes/niyantrak)**
+---
 
-The free edition is open source. Pro, Enterprise and Government/on-prem editions add fleet-wide policy,
-directory integration and support.
+## 🚀 Products
 
-## What else we build
+<div align="center">
 
-| Area | What it means for you |
-|---|---|
-| **Agentic AI upgrades** | Add governed AI agents to the software you already run, without a rewrite. |
-| **Voice and conversation** | Voice bots, transcription, and WhatsApp and video assistants, including Indian languages. |
-| **Private AI platforms** | Local GPU and on-prem AI with RAG, used alongside multiple cloud LLMs: your data stays where you decide. |
-| **Legacy modernisation** | Move old systems onto data platforms that can run on any cloud or on-prem. |
+| Product | What it is | Status |
+|---|---|---|
+| **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Governance layer for AI agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision (5W) | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.0-alpha-E8821A?style=flat-square) |
+| **Vigyan Virtual Cloud** | Sovereign AI platform on bare-metal GPU: local models, governed agents, one control plane | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
+| **VigyanVaani** | Voice bots and transcription for Indian and global languages | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
+| **Vigyan Studio** | Creator and brand platform: video, voice, social scheduling and listening intelligence | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
 
-## Principles
+</div>
 
-- **Your hardware, your data.** Everything we ship runs on machines you control. Cloud is optional.
-- **Any model.** We don't tie you to one vendor; the governance layer works with all of them.
-- **Evidence over promises.** Tests, records and proof ship with the code.
-- **Global first.** Built in India for the world, with each region's data laws handled as rules rather than forks.
+---
 
-## Get in touch
+## 🛠️ Technology we work with
+
+<div align="center">
+
+**🤖 AI · Agentic · LLMOps**
+
+![Claude](https://img.shields.io/badge/Claude-D97706?style=flat-square&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![Codex](https://img.shields.io/badge/OpenAI_Codex-412991?style=flat-square&logo=openai&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-10B981?style=flat-square&logo=nvidia&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-4B5563?style=flat-square&logo=llvm&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![MCP](https://img.shields.io/badge/MCP--first-7C3AED?style=flat-square&logo=anthropic&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-3B82F6?style=flat-square&logo=elasticsearch&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+
+**☁️ Cloud · Data · Infrastructure**
+
+[![cloud](https://skillicons.dev/icons?i=aws,azure,gcp,linux,docker,kubernetes,postgres,kafka,python,ts&theme=dark)](https://skillicons.dev)
+
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![ZFS](https://img.shields.io/badge/ZFS-F59E0B?style=flat-square&logo=openzfs&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
+
+</div>
+
+---
+
+## 🏭 Industries we have delivered for
+
+<div align="center">
+
+| | | |
+|---|---|---|
+| ⚡ Energy & Utilities | 🚗 Automotive & Manufacturing | 🏦 Financial Services |
+| 💊 Pharma & Life Sciences | 🛒 Consumer Brands | 📡 Telecom & Messaging |
+| 📺 Media & Advertising | 🎓 EdTech & Creator Tech | 🛰️ Sovereign AI |
+
+</div>
+
+---
+
+## 🤝 How we work
+
+<div align="center">
+
+| 🔒 Your hardware, your data | 🔄 Any model, no lock-in | 🧾 Evidence over promises | 🌍 Global first |
+|---|---|---|---|
+| Runs on machines you control | Works with open and commercial LLMs | Tests, records and proof ship with the code | Local law handled as rules, not forks |
+
+</div>
+
+---
+
+<div align="center">
+
+**Building at the intersection of AI governance, sovereign infrastructure and the agentic era.**
 
 🌐 [vigyanbytes.com](https://vigyanbytes.com) · ✉️ [info@vigyanbytes.com](mailto:info@vigyanbytes.com) · 📍 Bengaluru, India
 
-<sub>VigyanBytes Solutions Private Limited · CIN U62011KA2026PTC222749</sub>
+<sub>VigyanBytes Solutions Private Limited · CIN U62011KA2026PTC222749 · GSTIN 29AAMCV3593N1ZA</sub>
+
+</div>
