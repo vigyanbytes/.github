@@ -74,7 +74,7 @@ in any cloud, with any model.
 | **[vigyan-transcribe](https://github.com/vigyanbytes/vigyan-transcribe)** | Offline speech-to-text for 22 Indian languages on your own machine. Created by Aryan Nema, built on AI4Bharat IndicConformer |
 | **[vigyan-llm-cli](https://github.com/vigyanbytes/vigyan-llm-cli)** | Governed installer and wrapper for Claude Code, Codex, Gemini CLI, OpenCode and local models |
 | **[thermalright-lcd-control-aio](https://github.com/vigyanbytes/thermalright-lcd-control-aio)** | Linux service and web dashboard for Thermalright AIO and CPU-cooler LCD panels: CPU/GPU temperature, power and load (fork of rejeb/thermalright-lcd-control) |
-| **[homecloud-client](https://github.com/vigyanbytes/homecloud-client)** | AI-guided migration of personal files to your own home server (Immich + Nextcloud). Offline, no cloud |
+| **[homecloud-client](https://github.com/vigyanbytes/homecloud-client)** ![preview](https://img.shields.io/badge/preview-needs_HomeCloud_server-6B6357?style=flat-square) | Client for moving personal files to your own home server (Immich + Nextcloud). Not usable yet: it needs the HomeCloud server, which is still being built and proven |
 
 </div>
 
