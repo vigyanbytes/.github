@@ -64,20 +64,26 @@ in any cloud, with any model.
 
 </div>
 
-**Use any AI. Expose no one. Prove everything.** Niyantrak is the governance layer between your people, your AI
-agents and any model:
+**Use any AI. Expose no one. Prove everything.** Niyantrak is **enterprise AI governance** for security, platform,
+compliance and IT-admin teams: the governance layer between your people, your AI agents and any model.
 
 - 🔍 **Expose no one**: checksum-validated detection of personal identifiers (India, EU, UK, US, global); the model gets placeholders, never values
-- 🛑 **Stop what should not run**: one agent gate for Claude Code, Codex, Gemini CLI, OpenCode and Antigravity. The free edition is for individual developers and self-managed machines (a seatbelt, not a sandbox); organisation-wide enforcement through admin-managed settings deployed by IT (Intune, Jamf, Group Policy, Fleet) is part of the commercial editions and in lab validation
+- 🛑 **Stop what should not run**: one agent gate for Claude Code, Codex, Gemini CLI, OpenCode and Antigravity (user-level in the evaluation edition: a seatbelt, not a sandbox)
 - 🧾 **Prove everything**: every action is a **6W record (who, whom, what, where, why, which) + when**, in a tamper-evident store you can question in plain words
 - ✅ **Evidence, not claims**: 801 tests passed, 89.2% line coverage, leak scan clean, all [in the repository](https://github.com/vigyanbytes/niyantrak/tree/main/proof/latest)
-- 📜 **Free edition Apache-2.0**; Pro, Enterprise and Government editions are commercial. Lab-tested and ready for a first pilot
+- 📜 **Open evaluation edition, Apache-2.0**: inspect the code, run a trial without a purchase order, reference implementation of the 6W record
 
-**Free edition:** individual developers and self-managed machines. **Enterprise enforcement:** commercial, in lab validation.
+**Pro / Enterprise / Government (commercial)**, will be available:
+IT-managed enforcement via admin-managed settings (Intune, Jamf, Group Policy, Fleet) *(in build)* ·
+redact-and-reclaim gateway *(in lab validation)* · rule book compiling to policy engines such as the Microsoft Agent
+Governance Toolkit, OPA and Cedar *(in build)* · evidence packs that map to OWASP LLM/agentic, DPDP, the EU AI Act,
+GDPR, ISO/IEC 42001/27001 and NIST AI RMF *(in build)* · approvals with separation of duties *(in build)* · fleet
+console *(in build)* · per-connection SSH key governance *(in build)*. No consumer or home edition. Pilots:
+[info@vigyanbytes.com](mailto:info@vigyanbytes.com).
 
 | Repository | What it is |
 |---|---|
-| **[niyantrak](https://github.com/vigyanbytes/niyantrak)** | The free edition: scan, panel, agent gate, 6W activity and questions, decision log, node bootstrap (Python 3.10+, Linux and Windows) |
+| **[niyantrak](https://github.com/vigyanbytes/niyantrak)** | The open evaluation edition (Apache-2.0): scan, panel, agent gate, 6W activity and questions, decision log, node bootstrap (Python 3.10+, Linux and Windows) |
 | **[niyantrak-keys](https://github.com/vigyanbytes/niyantrak-keys)** ![new](https://img.shields.io/badge/new-open_source-22C55E?style=flat-square) | SSH key rotation, one key per connection, in a 7-step plan-first flow that never locks you out. Rust, CI on Linux, Windows and macOS. Apache-2.0 |
 | **[niyantrak-demo](https://github.com/vigyanbytes/niyantrak-demo)** | Read-only demo of the panel with fictional sample data; runs locally with Docker |
 
@@ -89,7 +95,7 @@ agents and any model:
 
 | Product | What it is | Status |
 |---|---|---|
-| **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Governance layer for AI agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision as 6W evidence | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.1-alpha-E8821A?style=flat-square) |
+| **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Enterprise AI governance for agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision as 6W evidence | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.1-alpha-E8821A?style=flat-square) |
 | **Vigyan Virtual Cloud** | Sovereign AI platform on bare-metal GPU: local models, governed agents, one control plane | ![coming soon](https://img.shields.io/badge/coming_soon-6B6357?style=flat-square) |
 | **VigyanVaani** | Voice bots and transcription for Indian and global languages | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
 | **Vigyan Studio** | Creator and brand platform: video, voice, social scheduling and listening intelligence | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
