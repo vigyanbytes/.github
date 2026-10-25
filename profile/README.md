@@ -73,6 +73,8 @@ agents and any model:
 - ✅ **Evidence, not claims**: 801 tests passed, 89.2% line coverage, leak scan clean, all [in the repository](https://github.com/vigyanbytes/niyantrak/tree/main/proof/latest)
 - 📜 **Free edition Apache-2.0**; Pro, Enterprise and Government editions are commercial. Lab-tested and ready for a first pilot
 
+**Free edition:** individual developers and self-managed machines. **Enterprise enforcement:** commercial, in lab validation.
+
 | Repository | What it is |
 |---|---|
 | **[niyantrak](https://github.com/vigyanbytes/niyantrak)** | The free edition: scan, panel, agent gate, 6W activity and questions, decision log, node bootstrap (Python 3.10+, Linux and Windows) |
