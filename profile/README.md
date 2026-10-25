@@ -19,6 +19,8 @@
 
 **Niyantrak: _Use any AI. Expose no one. Prove everything._**
 
+_Governance for autonomous AI agents — built for the agentic era._
+
 </div>
 
 ---
@@ -72,6 +74,19 @@ compliance and IT-admin teams: the governance layer between your people, your AI
 - 🧾 **Prove everything**: every action is a **6W record (who, whom, what, where, why, which) + when**, in a tamper-evident store you can question in plain words
 - ✅ **Evidence, not claims**: 801 tests passed, 89.2% line coverage, leak scan clean, all [in the repository](https://github.com/vigyanbytes/niyantrak/tree/main/proof/latest)
 - 📜 **Open evaluation edition, Apache-2.0**: inspect the code, run a trial without a purchase order, reference implementation of the 6W record
+
+**What sets Niyantrak apart:** checksum-proven typed placeholders with reclaim on owned hardware · a value-free,
+tamper-evident 6W record · one gate across five AI coding CLIs, with IT-managed enforcement in build · signed device
+identity · one rule book compiled to many engines (in build) · evidence you can verify offline.
+
+**Built on proven foundations:** Niyantrak Pro (in build) uses [Presidio](https://github.com/data-privacy-stack/presidio)
+(originally from Microsoft, now under the Data Privacy Stack) alongside our checksum-validated recognizers, and the
+[Microsoft Agent Governance Toolkit](https://microsoft.github.io/agent-governance-toolkit/) as a policy engine.
+
+**Standards wall** (maps to, never "compliant"; mappings published, evidence packs in build): OWASP Top 10 for LLM
+Apps + Agentic threats · ISO/IEC 42001 & 27001 · NIST AI RMF (+ GenAI profile) · EU AI Act · GDPR · India DPDP Act
++ Rules & CERT-In · US state privacy/AI laws (e.g. CCPA/CPRA) and sector rules (HIPAA, GLBA).
+[See the mappings](https://github.com/vigyanbytes/niyantrak/tree/main/docs/compliance).
 
 **Pro / Enterprise / Government (commercial)**, will be available:
 IT-managed enforcement via admin-managed settings (Intune, Jamf, Group Policy, Fleet) *(in build)* ·
