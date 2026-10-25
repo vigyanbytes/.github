@@ -17,6 +17,8 @@
 
 **Deep science. Real systems. Trust built in.**
 
+**Niyantrak: _Use any AI. Expose no one. Prove everything._**
+
 </div>
 
 ---
@@ -52,13 +54,40 @@ in any cloud, with any model.
 
 ---
 
+## ⭐ Featured: Niyantrak v0.1.1
+
+<div align="center">
+
+<a href="https://github.com/vigyanbytes/niyantrak"><img src="https://raw.githubusercontent.com/vigyanbytes/niyantrak/main/docs/media/screens/activity.png" width="760" alt="Niyantrak panel: Activity (6W) with fictional sample data"></a>
+
+<sub>Activity (6W) screen, fictional sample team · <a href="https://github.com/vigyanbytes/niyantrak/blob/main/docs/media/niyantrak-walkthrough.mp4">90-second walkthrough video</a></sub>
+
+</div>
+
+**Use any AI. Expose no one. Prove everything.** Niyantrak is the governance layer between your people, your AI
+agents and any model:
+
+- 🔍 **Expose no one**: checksum-validated detection of personal identifiers (India, EU, UK, US, global); the model gets placeholders, never values
+- 🛑 **Stop what should not run**: one agent gate for Claude Code, Codex, Gemini CLI, OpenCode and Antigravity
+- 🧾 **Prove everything**: every action is a **6W record (who, whom, what, where, why, which) + when**, in a tamper-evident store you can question in plain words
+- ✅ **Evidence, not claims**: 801 tests passed, 89.2% line coverage, leak scan clean, all [in the repository](https://github.com/vigyanbytes/niyantrak/tree/main/proof/latest)
+- 📜 **Free edition Apache-2.0**; Pro, Enterprise and Government editions are commercial. Lab-tested and ready for a first pilot
+
+| Repository | What it is |
+|---|---|
+| **[niyantrak](https://github.com/vigyanbytes/niyantrak)** | The free edition: scan, panel, agent gate, 6W activity and questions, decision log, node bootstrap (Python 3.10+, Linux and Windows) |
+| **[niyantrak-keys](https://github.com/vigyanbytes/niyantrak-keys)** ![new](https://img.shields.io/badge/new-open_source-22C55E?style=flat-square) | SSH key rotation, one key per connection, in a 7-step plan-first flow that never locks you out. Rust, CI on Linux, Windows and macOS. Apache-2.0 |
+| **[niyantrak-demo](https://github.com/vigyanbytes/niyantrak-demo)** | Read-only demo of the panel with fictional sample data; runs locally with Docker |
+
+---
+
 ## 🚀 Products
 
 <div align="center">
 
 | Product | What it is | Status |
 |---|---|---|
-| **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Governance layer for AI agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision (5W) | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.0-alpha-E8821A?style=flat-square) |
+| **[Niyantrak](https://github.com/vigyanbytes/niyantrak)** | Governance layer for AI agents and bots: finds personal data before a model sees it, stops dangerous agent actions, records every decision as 6W evidence | ![Open source](https://img.shields.io/badge/open_source-Apache--2.0-22C55E?style=flat-square) ![alpha](https://img.shields.io/badge/v0.1.1-alpha-E8821A?style=flat-square) |
 | **Vigyan Virtual Cloud** | Sovereign AI platform on bare-metal GPU: local models, governed agents, one control plane | ![coming soon](https://img.shields.io/badge/coming_soon-6B6357?style=flat-square) |
 | **VigyanVaani** | Voice bots and transcription for Indian and global languages | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
 | **Vigyan Studio** | Creator and brand platform: video, voice, social scheduling and listening intelligence | ![building](https://img.shields.io/badge/in_development-6B6357?style=flat-square) |
@@ -137,6 +166,8 @@ in any cloud, with any model.
 | Runs on machines you control | Works with open and commercial LLMs | Tests, records and proof ship with the code | Local law handled as rules, not forks |
 
 </div>
+
+<p align="center"><b>How we build:</b> built with AI coding agents under our own gate and 6W record.</p>
 
 ---
 
