@@ -68,7 +68,7 @@ in any cloud, with any model.
 agents and any model:
 
 - 🔍 **Expose no one**: checksum-validated detection of personal identifiers (India, EU, UK, US, global); the model gets placeholders, never values
-- 🛑 **Stop what should not run**: one agent gate for Claude Code, Codex, Gemini CLI, OpenCode and Antigravity
+- 🛑 **Stop what should not run**: one agent gate for Claude Code, Codex, Gemini CLI, OpenCode and Antigravity. The free edition is for individual developers and self-managed machines (a seatbelt, not a sandbox); organisation-wide enforcement through admin-managed settings deployed by IT (Intune, Jamf, Group Policy, Fleet) is part of the commercial editions and in lab validation
 - 🧾 **Prove everything**: every action is a **6W record (who, whom, what, where, why, which) + when**, in a tamper-evident store you can question in plain words
 - ✅ **Evidence, not claims**: 801 tests passed, 89.2% line coverage, leak scan clean, all [in the repository](https://github.com/vigyanbytes/niyantrak/tree/main/proof/latest)
 - 📜 **Free edition Apache-2.0**; Pro, Enterprise and Government editions are commercial. Lab-tested and ready for a first pilot
